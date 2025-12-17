@@ -72,10 +72,11 @@ header {
     grid-area:hd;
     background-color: lightgoldenrodyellow;
     text-align: center;
-      
+    background-image: url();
       background-size: cover;
      background-position: center;
-     color: rgb(255, 254, 219);
+     color: rgb(255, 255, 255);
+     
 
     
 }
