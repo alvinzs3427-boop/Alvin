@@ -4,7 +4,7 @@ body{
 
 #wrapper {
 width: 100%;
-height: 250vh;
+height: 400vh;
 display: grid;
 border: 1px solid black;
 grid-template-areas: 
@@ -18,12 +18,12 @@ grid-template-columns: 1fr 1fr 1fr 1fr;
 
 }
 #Välkommen{
-    font-size: 2rem;
+    font-size: 4rem;
     margin: 0;
     
 }
 #Kafesolglimt{
-font-size: 4rem;    
+font-size: 6rem;    
 }
 #De{
     font-size: 1.5rem;
@@ -88,7 +88,7 @@ header {
 nav{
     display: flex;
     grid-area:nav;
-    background-color: rgb(83, 96, 61);
+    background-color: rgb(153, 184, 153);
     text-align: center;
     justify-content: center;
     justify-content: space-around;
@@ -104,6 +104,8 @@ nav{
     background-position: center;
     color: rgb(255, 254, 219);
     border: 1px solid black;
+
+    background-image: url("../img/bulle.avif")
 }
 
 #sec2{
@@ -114,14 +116,25 @@ nav{
     background-position: center;
     color: rgb(255, 255, 255);
     border: 1px solid black;
+    background-image: url("../img/photo-1583743089695-4b816a340f82.avif");
 }
 
+#sec4{
+    grid-area: s1 / s1 / s3 / s3;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(153, 184, 153);
+   
+    
+}
 #middiv{
     grid-area: grid1;
-    background-color: rgb(83, 96, 61);
+    background-color: rgb(153, 184, 153);
+    
 }
 footer{
     grid-area: ft;
-    background-color: rgb(67, 80, 44);
+    background-color: rgb(153, 184, 153);
     text-align: center;
 }
+
